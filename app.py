@@ -39,9 +39,9 @@ if st.button("Calcular"):
     descuentos = calcular_descuentos(remunerativos["total"])
     
 st.subheader("Descuentos Obligatorios")
-st.write(f"Jubilación: -${descuentos['jubilacion']:,.2f}")
-st.write(f"Obra Social: -${descuentos['obra_social']:,.2f}")
-st.write(f"Seguro de Vida: -${descuentos['seguro']:,.2f}")
+ st.write(f"Jubilación: -${descuentos['jubilacion']:,.2f}")
+ st.write(f"Obra Social: -${descuentos['obra_social']:,.2f}")
+ st.write(f"Seguro de Vida: -${descuentos['seguro']:,.2f}")
 
 if descuentos["gremiales"]:
     st.subheader("Descuentos Gremiales")
@@ -55,6 +55,7 @@ st.write(f"-${descuentos['total']:,.2f}")
 neto = remunerativos["total"] - descuentos["total"] + foid + ayuda
 st.subheader("💰 Sueldo Neto")
 st.write(f"${neto:,.2f}")
+
 
 
 
