@@ -1,0 +1,260 @@
+codigo,cargo,puntaje
+100,Supervisor Nivel Inicial.,3536.967
+101,Dir. Nivel Inicial-T.C.,3274.447
+102, Dir. 1ª Nivel Inicial- T.S.,2728.708
+103,Dir. 2ª Nivel Inicial.-T.S.,2545.013
+104,Dir. 3ª Nivel Inical.- T.S.,2388.037
+105,Vicedir. Nivel Inical.- T.C.,3069.379
+106,Vicedir. Nivel Inical. T.S.,2558.373
+107,Sec.Nivel Inicial.- T.C.,2865.645
+108,Sec. Nivel Inicial. -T-S.,2243.66
+109,Mtro.(sección) Nivel Inicial- T.S.,1432.822
+110,Mtro.Bibliotecario. - T.S.,1432.822
+111,Mtro.DeProyectos especificos - T.S.,1432.822
+112,Mtro.Secc.NivelInicial (aux.sala).-T.S.,1432.822
+113,Mtro. Aux. Secr.Nivel Inicial- T.S. ,1432.822
+114,Maestro Tutor.- T.S.,1432.822
+115,Hora Cátedra Nivel Inicial.,68.232
+116,Pareja Pedagógica T.S.,1432.822
+200,Supervisor Nivel EGB 1 Y 2.,3536.967
+201,Dir. Pers. Unico EGB 1 Y 2.- T.C.,2830.019
+202,Dir. 1ª Nivel EGB 1 Y 2.- T.C.,3274.447
+203,Dir. 2ª nivel EGB 1 Y 2.- T.C.,3002.219
+204,Dir.3ª Nivel EGB 1 Y 2.- T.C.,2831.638
+205,Dir. 1ªNivel EGB 1 Y 2 .- T.S.,2728.708
+206,Dir. 2ª Nivel EGB 1 Y 2.- T.S.,2545.013
+207,Dir. 3ª Nivel EGB 1 Y 2 .- T.S.,2388.037
+208,Vicedir. Nivel EGB 1 Y 2 .- T.C.,3069.379
+209,Vicedir. Nivel EGB 1 Y 2.- T.S.,2558.373
+210,Sec. Nivel EGB. 1 Y 2. T.C.,2865.645
+211,Sec. Nivel EGB 1 Y 2.- T.S.,2243.66
+212,Mtro. (año) Nivel EGB. 1 Y 2.- T.S.,1432.822
+213,Mtro. Bibliotecario. T.S.,1432.822
+214,Mtro. Computación.- T.S.,1432.822
+215,Mtro. Domic. Hospit.- T.S.,1432.822
+216,Mtro. de Proyectos Especificos.- T.S.,1432.822
+217,Mtro. Recuperador.- T.S.,1432.822
+218,Mtro. Tutor.- T.S.,1432.822
+219,Mtro. (año) Nivel EGB 1 Y 2.- T.C.,2748.566
+220,Mtro. Aux. secr. EGB 1 Y 2.- T.S.,1432.822
+221,Hora Cátedra Nivel EGB 1 Y 2,68.232
+222,Coord. Ciclo EGB 1Y2-T.C.,2650.777
+223,Coord. Ciclo EGB 1Y2-T.S.,1500.734
+224,Pareja Pedagógica T.S.,1432.822
+230,Maestro Bibliotecario T.C.,2748.566
+231,Maestro de Computación T.C.,2748.566
+232,Mtro. Domiciliario/Hospitalario T.C.,2748.566
+233,Mtro. de Proyectos Especificos T.C.,2748.566
+234,Mtro. Recuperador T.C.,2748.566
+235,Tutor/a Docente T.C.,2748.566
+236,Mtro. Aux. de Secretaría T.C.,2748.566
+300,Supervisor Modalidad Especial.,3536.967
+301,Dir. Modalidad Especial - T.C.,3274.447
+302,Vicedir. Modalidad Especial - T.C.,3069.379
+303,Sec. Modalidad Especial - T.C.,2865.645
+304,Docente de Grupo - T.S.,1432.822
+305,Docente de Sección - T.S.,1432.822
+306,Docente de Ciclo - T.S.,1432.822
+307,Docente Bibliotecario. - T.S.,1432.822
+308,Docente de Proyectos Especificos - T.S.,1432.822
+309,Docente Tutor - T.S.,1432.822
+310,Docente Auxiliar de Secretaría - T.S.,1432.822
+311,Docente Auxiliar de Grupo - T.S.,1432.822
+312,Hora Cátedra,68.232
+313,Enfermero/a - T.S.,1432.822
+314,Coordinador/a Pedagógico/a - T.S.,2455.949
+315,Coordinador/a Técnico/a - T.S.,2455.949
+316,H.C. Docente Equipo Interdisc. Institucional,68.232
+400,Supervisor Nivel Jovenes y Adul.,3561.903
+401,Dir. Cent. Sec.CENS.- T.S.,2794.456
+402,Vicedir. Cent. Sec. CENS -T.S.,2568.5
+403,Coord. de Ciclo Cent. Sec. CENS.- T.S.,2085.318
+404,Secretario Cent. Sec. CENS.- T.S.,2046.889
+405,ProSecretario Cent. Sec. CENS.- T.S.,1910.43
+406,Dir. Esc. Nivel Jov.y ad..- T.C.,3274.447
+407,Vicedir. Esc. Nivel Jov.y ad..- T.C.,3069.379
+408,Sec.Nivel Jovenes y Adultos.- T.C.,2865.645
+409,Mtro. Ciclo Nivel Jovenes y Ad.- T.S.,1432.822
+410,Mtro.Aux.secr.Nivel jov.y ad.- T.S.,1432.822
+411,Bibliotecario Escolar,1432.822
+412,Mtro. Proyectos Especificos - T.S.,1432.822
+413,Mtro. Computación.- T.S.,1432.822
+414,Mtro.p/pers.Priv. De la libertad.- T.S.,1432.822
+415,Tutor Docente Nivel Jóvene y Adultos,1432.822
+416,Mtro.Activ. Práct.Nivel Jov. Y Ad.,1432.822
+417,Auxiliar administrativo docenteT.C.,1154.914
+418,Jefe de laboratorio.,1227.974
+419,Ay. Téc. Trab. Prác.(ATTP),1211.122
+420,Preceptor.,1296.427
+421,Hora Cátedra Nivel Jovenes y ad.,68.232
+422,Auxiliar de Secretaría T.S.,1296.427
+423,Auxiliar de Secretaría T.C.,2415.313
+451,DIRECTOR DE EDUCACIÓN ESPECIAL NO FORMAL T.C.,3274.447
+452,VICE DIRECTOR EDUCACION ESPECIAL NO FORMAL T.C.,3069.379
+453,SECRETARIO ADMINISTRATIVO EDUCACION ESPECIAL NO FORMAL T.S.,2046.889
+454,MAESTRO TUTOR EDUCACIÓN ESPECIAL NO FORMAL T.S.,1432.822
+455,TALLERISTA EDICACIÓN ESPECIAL NO FORMAL T.S.,1275.846
+456,HORA CÁTEDRA EDUCACIÓN ESPECIAL NO FORMAL,68.232
+457,HORA CATEDRA EDUCACIÓN ESP. NO FORMAL- EQUIPO MULTIDISCIPLINARIO,68.232
+458,DIRECTOR EDUCACIÓN NO FORMAL T.C.,3274.447
+459,VICEDIRECTOR EDUCACIÓN NO FORMAL T.C.,3069.379
+460,COORDINADOR EDUCACIÓN NO FORMAL T.C.,2634.077
+461,SECRETARIO ADMINISTRATIVO EDUCACIÓN NO FORMAL T.C.,2865.645
+462,PRECEPTOR EDUCACIÓN NO FORMAL T.C.,2415.313
+463,JEFE GENERAL ENSAÑANZA PRÁCTICA EDUCACIÓN NO FORMAL T.S.,2148.677
+464,REGENTE ENSEÑANZA PRACTICA EDUCACIÓN NO FORMAL T.S. ,2148.677
+465,COORDINADOR EDUCACIÓN NO FORMAL T.S.,2012.854
+466,SECRETARIO ADMINISTRATIVO EDUCACIÓN NO FORMAL T.S.,2046.889
+467,MAESTRO DE ENSEÑANZA PRÁCTICA JEFE SECCIÓN EDUC. NO FORMAL T.S.,1637.511
+468,PROSECRETARIO EDUCACIÓN NO FORMAL T.S.,1910.43
+469,MAESTRO DE ENSAÑANZA PRÁCTICA EDUCACIÓN NO FORMAL T.S.,1432.822
+470,MAESTRO TUTOR EDUCACIÓN NO FORMAL T.S.,1432.822
+471, BIBLIOTECARIO EDUCACIÓN NO FORMAL T.S.,1432.822
+472,PRECEPTOR EDUCACIÓN NO FORMAL T.S.,1296.427
+473,AYUDANTE DE TRABAJOS PRACTICOS (ATTP) EDUCACIÓN NO FORMAL T.S.,1211.076
+474,HORA CÁTEDRA EDUCACIÓN NO FORMAL T.S.,68.232
+475,Auxiliar de Secretaría T.S.,1296.427
+476,Auxiliar de Secretaría T.C.,2415.313
+500,Supervisor Dptal. de Gabinete P.y A.E.,3536.967
+501,Director Dptal. de Gabinete P.y A.E.,3274.447
+502,Secretario de Gabinete P.y A.E.,2865.645
+503,Asistente Social,2728.708
+504,Asistente Educacional,2728.708
+505,Psicólogo,2728.708
+506,Psicomotricista,2728.708
+507,Psicopedagogo,2728.708
+508,Músicoterapeuta,2728.708
+509,Terapista Ocupacional,2728.708
+510,Fonoaudiólogo,2728.708
+511,Vicedirector de Clínica Terapéutica GPyAE,3069.379
+512,Viced. de Prevención y Promoción GPyAE,3069.379
+513,Viced. Equipos Interdiscipl. Escolares GPyAE,3069.379
+514,Aux. de Secretaría de Gabinete P.y A.E.,2728.708
+600,"S.T.S.Niv.Inicial,EGB1y2,Esp.Y Gab.",3445.676
+601,S.T.S Nivel EGB 3 y Polim.,3445.676
+602,S.T.S.Nivel Jovenes y Adultos.,3445.676
+700,Dir. De Biblioteca.-T.C.,3274.447
+701,Vice-Director Departamental de Biblioteca ,3069.379
+702,Secret. Tecn. Administ. Dptal.Bibliotecas ,2865.645
+703,Supervision Departamental de Bibliotecas,3445.676
+704,Supervision Prov.de Bibliotecas Escolares,3536.967
+800,Supervisor Nivel EGB3 y Polimodal,3536.967
+801,Dir.-/Rector 1ª Agricola.- T.C.,3274.447
+802,Dir.-/Rector 1ª .- T.C.,3274.447
+803,Dir.-/Rector 2ª .- T.C.,2940.039
+804,Dir.-/Rector3ª .- T.C.,2744.191
+805,Dir.-/Rector 2ª .- T.S.,2545.013
+806,Dir.-/Rector3ª .- T.S.,2388.037
+807,Vicedir./Vicered.1ª.- T.C.,3069.379
+808,Vicedir./Vicered.2ª.- T.C.,2912.403
+809,Vicedir./Vicered.3ª.- T.C.,2779.92
+810,Vicedir./Vicered.1ª.- T.S.,2558.373
+811,Vicedir./Vicered.2ª.- T.S.,2175.396
+812,Vicedir./Vicered.3ª.- T.S.,2032.893
+813,Secretario 1ª.- T.C.,2865.645
+814,Secretario 2ª.- T.C.,2439.249
+815,Secretario 3ª.- T.C.,2217.702
+816,Secretario 1ª.- T.S.,2046.889
+817,Secretario 2ª.- T.S.,1910.43
+818,Secretario 3ª.- T.S.,1773.493
+819,ProSecretario 1ª.- T.S.,1910.43
+820,ProSecretario 2ª.- T.S.,1773.493
+821,Coord. de Ciclo EGB 3.- T.C.,2634.077
+822,Coord. de Ciclo Polim.T.C.,2634.077
+823,Coord. deTAP.-T.C.,2634.077
+824,Coord. de Ciclo EGB 3.- T.S..,2012.854
+825,Coord. de Ciclo Polim.T.S.,2012.854
+826,Regente 1ª Ens. Técnica,2148.677
+827,Regente 3ª Ens. Técnica,1853.651
+828,Jefe Gral. Ens. Práctica 1ª,2148.677
+829,Coordinador Inter-Area,1773.493
+830,Coordinador de Area.,272.929
+831,J. Sección Ens. Prác. Agricola- T.C.,3073.404
+832,Instructor Agricola.,2865.645
+833,Mtro.Ens. Práct. Ens.Técn.,1432.822
+834,Mtro.Ens. Práct. Jefe Sección.,1637.511
+835,Jefe de Area de TAP- T.S.,1637.511
+836,Jefe de Laboratorio.,1228.133
+837,Jefe PRCT 1ª-T.S.,1603.158
+838,Jefe PRCT 2ª-T.S.,1463.995
+839,SubJefe PRCT 1ª-T.S.,1409.443
+840,SubJefe PRCT 2ª-T.S.,1360.458
+841,Preceptor.-T.C.,2415.313
+842,Preceptor.T.S.,1296.427
+843,Asesor Pedagógico(ASPD) .,2455.949
+844,Ayud. Dpto. Orientación .,1091.674
+845,Psicoped. Dpto.  Orien.,1091.674
+846,Auxiliar Administrativo Docente,1154.914
+847,Referente Institucional Informático,1296.427
+848,Ayud.Téc. Trabajos Prácticos(ATTP),1211.076
+849,Ayudante Clases Prácticas.,1211.076
+850,Ayudante de Cátedra (Artística),1211.076
+851,Bibliotecario. - T.S.,1432.822
+852,Hora Cátedra Nivel EGB 3 y polimod.,68.232
+853,Prof.T.P. 02 24Hs.,1637.574
+854,Prof.T.P. 03 18Hs.,1228.18
+855,Mtro.Ens. Práct. Agricola.,1432.822
+856,Mtro.TUTOR-T.S.,1432.822
+857,Mtro.Cult. Rural/dom. Agricola.,1432.822
+858,Mtro.Especial(Artistica).,682.322
+859,Coordinador T.T.P.-T.C.,2634.077
+860,Coordinador T.T.P.-T.S.,2012.854
+861,Coordinador T.A.P.-T.S.,2012.854
+862,Director Departamental de Bibliotecas,3274.447
+863,Vice Director Deptal. de Bibliotecas,3069.379
+864,Sec. Técn. Adm. Deptal. De Bibliotecas,2865.645
+865,Tutor T.I.y F.E.,1637.511
+866,Auxiliar de Secretaría T.S.,1296.427
+867,Auxiliar de Secretaría T.C.,2415.313
+900,Supervisor Nivel Terciario.,3894.94
+901,Dir.-/Rector 1 Turno,3709.467
+902,Vicedirector./Vicerector.,3477.625
+903,Bedel,1825.255
+904,Encargado de Laboratorio,1412.382
+905,Secretario/a Administrativo/a ,2467.517
+906,ProSecretario/a,2197.039
+907,Bibliotecario/a Especializado/a,1718.391
+908,Preceptor/a,1490.848
+909,Ayudante de Laboratorio/ A.T.T.P.,1392.766
+910,Hora Cátedra ,78.465
+911,Secretario/a o Coordinador/a Académico/a,2467.517
+912,Jefe/a de Formación Inicial,1569.307
+913,Jefe/a de Formación Permanente y Extensión,1569.307
+914,Jefe/a de Investigación Educativa,1569.307
+915,Jefe/a de Políticas Estudiantiles,1569.307
+916,Jefe de Bedeles,1825.255
+917,Referente de Entornos Formativos,1804.703
+918,Coordinador/a Interinstitucional de Prácticas,1318.218
+919,Coordinador/a de Vinculación Socioproductiva,1318.218
+920,Coord.  Ciclo/Curso de Ingreso/Introductorio,1318.218
+921,Coordinador/a de Entornos Multimediales,1318.218
+922,Coordinador/a de Carreras,855.272
+923,Coordinador/a del Área del Conocimiento,855.272
+924,Coordinador/a de Formación Permanente,855.272
+925,Coordinador/a de Extensión,855.272
+926,Coordinador/a de Comunicación Institucional,855.272
+927,Coordinador/a de Centro de Documentación,1976.15
+928,Tutor/a docente de carrera o de Curso de Ingreso,499.04
+929,Docente co-formador/a,499.04
+930,Asistente Técnico,1490.841
+931,Auxiliar de Secretaría,1490.841
+932,Tutor/a del Depto. de Políticas Estudiantiles,855.272
+933,Tramo docente 1 (categoría A/B) ,941.584
+934,Tramo docente 2 (categoría A/B) ,1569.307
+935,Tramo docente 3 (categoría A/B) ,2353.96
+936,Tramo docente 4 (categoría A/B) ,3138.614
+937,Tramo prácticas 1 (categoría A/B),941.584
+938,Tramo prácticas 2 (categoría A/B),1569.307
+939,Tramo prácticas 3 (categoría A/B),2353.96
+940,Tramo prácticas 4 (categoría A/B),3138.614
+949,Supervisor Departamental de Bibliotecas,3445.676
+950,Supervisor General.,3663.758
+951,Super.deAreasCompl.(artísitica),3536.967
+952,Super.deAreasCompl.(educ. físic.),3536.967
+953,Supervisor de Bibliotecas.,3536.967
+954,Supervisor General de Nivel Secundario,3663.758
+955,Supervisor Escolar Departamental de Nivel Secundario,3536.967
+956,Supervisor Técnico Departamental de Nivel Secundario,3445.676
+957,Sup. Deptal. Lenguajes Artísticos N. Primario,3368.658
+958,Sup. Deptal. de Educación Física N. Primario,3368.658
+959,Sup. Deptal. de Tecnología Nivel Primario,3368.658
