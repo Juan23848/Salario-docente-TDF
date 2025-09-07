@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Cargar tabla de cargos
-tabla_cargos = pd.read_csv("cargos_filtrados.csv")
+tabla_cargos = pd.read_csv("Tabla_de_cargos.csv")
 
 def buscar_cargo_por_codigo_o_nombre(entrada):
     entrada = entrada.lower().strip()
