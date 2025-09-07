@@ -1,7 +1,7 @@
 
 import streamlit as st
 import pandas as pd
-from motor_corregido import calcular_salario, buscar_cargo_por_codigo_o_nombre
+from motor import calcular_salario, buscar_cargo_por_codigo_o_nombre
 
 st.set_page_config(page_title="Simulador Salarial Docente TDF", layout="centered")
 
