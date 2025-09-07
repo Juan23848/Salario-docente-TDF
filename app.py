@@ -52,9 +52,10 @@ st.subheader("Total Descuentos")
 st.write(f"-${descuentos['total']:,.2f}")
 
     # Neto
-    neto = remunerativos["total"] - descuentos["total"] + foid + ayuda
-    st.subheader("💰 Sueldo Neto")
-    st.write(f"${neto:,.2f}")
+neto = remunerativos["total"] - descuentos["total"] + foid + ayuda
+st.subheader("💰 Sueldo Neto")
+st.write(f"${neto:,.2f}")
+
 
 
 
