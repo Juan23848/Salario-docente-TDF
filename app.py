@@ -1,56 +1,68 @@
 
 import streamlit as st
 import pandas as pd
-from motor import calcular_salario, buscar_cargo_por_codigo_o_nombre
+from motor import calcular_salario  # solo usamos calcular_salario ahora
 
-st.set_page_config(page_title="Simulador Salarial Docente TDF", layout="centered")
+# Configuración de la página
+st.set_page_config(page_title="Simulador Docente TDF", layout="centered")
 
-st.title("🧮 Simulador Salarial Docente – Tierra del Fuego")
+st.title("📊 Simulador Salarial Docente - Tierra del Fuego")
 
+# Valor índice fijo
 st.markdown("### Valor Índice Fijo (VI): 89.36004")
 VI = 89.36004
 
+# Antigüedad
 antiguedad = st.number_input("Años de antigüedad", min_value=0, max_value=50, value=0, step=1)
 
-st.markdown("## 🛠️ Carga de hasta 4 espacios de cargos/horas")
+st.markdown("### ➕ Carga de hasta 4 espacios de cargos/horas")
+
+# Cargar la tabla de cargos
+cargos_df = pd.read_csv("Tabla_de_cargos.csv")
+cargos_df["opcion"] = cargos_df["codigo"].astype(str) + " - " + cargos_df["nombre"]
 
 cargos_seleccionados = []
 
+# Interfaz de selección de hasta 4 cargos
 for i in range(4):
-    st.markdown(f"### Espacio #{i+1}")
-    entrada = st.text_input(f"Buscar por código o nombre", key=f"busqueda_{i}")
-    cantidad = st.number_input("Cantidad", min_value=0, max_value=54, value=0, step=1, key=f"cantidad_{i}")
+    st.markdown(f"#### Espacio #{i+1}")
 
-    if entrada and cantidad > 0:
-        resultados = buscar_cargo_por_codigo_o_nombre(entrada)
-        if not resultados.empty:
-            codigo_seleccionado = int(resultados.iloc[0]["codigo"])
-            cargos_seleccionados.append({
-                "codigo": codigo_seleccionado,
-                "cantidad": cantidad
-            })
-        else:
-            st.warning("❌ No se encontró el código o nombre ingresado.")
+    # Selectbox con autocompletado dinámico
+    cargo_seleccionado = st.selectbox(
+        f"Seleccionar cargo/horas para espacio {i+1}",
+        options=[""] + list(cargos_df["opcion"]),
+        index=0,
+        key=f"cargo_{i}"
+    )
 
-st.markdown("## 📌 Selección de gremios (máximo 2)")
+    cantidad = st.number_input(
+        f"Cantidad (hs/cargos) para espacio {i+1}",
+        min_value=0,
+        max_value=54,
+        value=0,
+        step=1,
+        key=f"cantidad_{i}"
+    )
+
+    if cargo_seleccionado != "" and cantidad > 0:
+        cargo_info = cargos_df[cargos_df["opcion"] == cargo_seleccionado].iloc[0]
+        cargos_seleccionados.append({
+            "codigo": int(cargo_info["codigo"]),
+            "nombre": cargo_info["nombre"],
+            "cantidad": cantidad,
+            "puntaje": cargo_info["puntaje"]  # si lo usás en motor.py
+        })
+
+# Selección de gremios
+st.markdown("### 🏛 Selección de gremios (máximo 2)")
 gremio1 = st.selectbox("Gremio 1", ["Ninguno", "AMET", "SADOP", "SUTEF"], index=0)
 gremio2 = st.selectbox("Gremio 2", ["Ninguno", "AMET", "SADOP", "SUTEF"], index=0)
 
+# Botón de cálculo
 if st.button("Calcular sueldo"):
     if not cargos_seleccionados:
-        st.error("Debe ingresar al menos un cargo.")
+        st.error("⚠️ Debe ingresar al menos un cargo.")
     else:
-        total, detalle = calcular_salario(antiguedad, cargos_seleccionados)
-
-        st.markdown("## 📊 Resultados")
-        st.write(f"**Total Remunerativo Estimado:** ${total:,.2f}")
-
-        st.markdown("## 🧾 Detalle por cargo")
-        for item in detalle:
-            st.markdown(f"**Código {item['codigo']} x{item['cantidad']}**")
-            st.write(f"Cargo: {item['cargo']}")
-            st.write(f"Puntaje: {item['puntaje']}")
-            st.write(f"Básico: ${item['basico']:,.2f}")
-            st.write(f"Función: ${item['funcion']:,.2f}")
-            st.write(f"Antigüedad: ${item['antiguedad']:,.2f}")
-            st.write(f"Subtotal: ${item['subtotal']:,.2f}")
+        resultado = calcular_salario(cargos_seleccionados, antiguedad, gremio1, gremio2, VI)
+        st.markdown("## 🧾 Resultado del cálculo")
+        st.write(resultado)
