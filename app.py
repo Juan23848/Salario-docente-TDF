@@ -1,7 +1,7 @@
 
 import streamlit as st
 import pandas as pd
-from motor import calcular_salario  # solo usamos calcular_salario ahora
+from motor import calcular_salario
 
 # Configuración de la página
 st.set_page_config(page_title="Simulador Docente TDF", layout="centered")
@@ -50,7 +50,7 @@ for i in range(4):
             "codigo": int(cargo_info["codigo"]),
             "nombre": cargo_info["nombre"],
             "cantidad": cantidad,
-            "puntaje": cargo_info["puntaje"]  # si lo usás en motor.py
+            "puntaje": cargo_info["puntaje"]
         })
 
 # Selección de gremios
@@ -66,3 +66,4 @@ if st.button("Calcular sueldo"):
         resultado = calcular_salario(cargos_seleccionados, antiguedad, gremio1, gremio2, VI)
         st.markdown("## 🧾 Resultado del cálculo")
         st.write(resultado)
+
